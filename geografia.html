@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PiuraEssence</title>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Comfortaa', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color: #D3EAD2;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            color: #333;
+            margin: 0;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            background-color: #A7C8A5;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        nav ul li {
+            margin: 10px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+            font-size: 1.2em;
+            padding: 10px 20px;
+            display: block;
+            transition: background-color 0.3s;
+        }
+
+        nav ul li a:hover {
+            background-color: #868A97;
+            border-radius: 5px;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        section {
+            padding: 20px;
+            margin: 20px 0;
+            background-color: #E8F9E8;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        section h2 {
+            font-size: 1.8em;
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        section p {
+            font-size: 1.2em;
+            line-height: 1.6;
+            color: #555;
+        }
+
+        section img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin: 20px 0;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+		
+		 aside {
+            background-color: #98B498;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        aside h2 {
+            font-size: 1.8em;
+            color: #fff;
+            margin-bottom: 10px;
+        }
+
+        aside ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        aside ul li {
+            margin: 10px 0;
+        }
+
+        aside ul li a {
+            text-decoration: none;
+            color: #fff;
+            font-size: 1.2em;
+            transition: color 0.3s;
+        }
+
+        aside ul li a:hover {
+            color: #ff6347;
+        }
+
+
+        footer {
+            background-color: #A1A6AC;
+            color: #f0f0f0;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        @media (max-width: 768px) {
+            nav ul {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            nav ul li {
+                margin: 5px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Geografía de Piura</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Página principal</a></li>
+                <li><a href="economia.html">Economía</a></li>
+                <li><a href="historia.html">Historia</a></li>
+                <li><a href="sociedad.html">Sociedad</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="Localización">
+            <h2>Localización</h2>
+            <p>Piura está ubicada en la zona norte del Perú, colindando con las provincias de Tumbes, Cajamarca y Lambayeque, además, con Ecuador y el océano pacífico.</p>
+            <p>Mapa de referencia:</p>
+            <img src="https://www.viajaraperu.com/wp-content/uploads/2011/07/Ubicacion-Departamento-de-Piura.png" alt="Mapa de Piura">
+        </section>
+
+        <section id="Recursos-Naturales">
+            <h2>Recursos Naturales</h2>
+            <p>Piura contribuye en un 3,23% del PBI (Producto Bruto Interno) albergando el 6,12% de la población peruana. Antes solía poseer un PBI mucho mayor, pero fue decayendo a medida que el sector minero también decaía.</p>
+            <p>La agricultura de la región genera el algodón y, en menor medida, el arroz, pero más recientemente muchas frutas, siendo que cultiva el 65% de mangos en el Perú, principalmente en las provincias de San Lorenzo y Chulucanas. En estas mismas regiones, con la compañía de Chira y el mismo Piura, se cultiva el 12% del arroz y 17% de plátanos nacionales.</p>
+            <p>Piura no produce muchos recursos provenientes de animales, aunque sí da pequeños porcentajes de carne de cerdo, de res y de oveja, así como sus productos derivados. Esta región tiene una gran producción petrolífera. En 2001 se produjeron casi once millones de barriles, 32% de la producción nacional. Piura no tiene gran minería metálica, en Canchaque, Huancabamba, se minan depósitos de cobre, molibdeno y tungsteno, aunque por leyes no se pueden explotar en su totalidad.</p>
+            <img src="https://portal.andina.pe/EDPfotografia3/Thumbnail/2020/10/29/000722015W.jpg" alt="Recursos naturales de Piura">
+        </section>
+
+        <section id="Clima-Piurano">
+            <h2>Clima Piurano</h2>
+            <p>Piura tiene dos regiones del Perú, costa y sierra, y por eso tiene climas de ambas zonas. En la costa, las temperaturas rondan por los 25 grados centígrados, y en zonas altas (serranas) la temperatura puede llegar a los 14.6 centígrados. Debido a que el departamento se encuentra cerca de la línea ecuatorial, muchas personas describen su clima como uno desértico y cálido por la mayor tiempo del año.</p>
+        </section>
+
+        <section id="Flora-y-Fauna">
+            <h2>Flora y Fauna representativa</h2>
+            <p><strong>Aguilucho común:</strong> Principalmente para en zonas montañosas y de vegetación, vuelan a más o menos 3500 metros sobre el nivel del mar. Sus plumas de color rojo le dan el nombre de gavilán de espada roja. No se le suele ver en las ciudades.</p>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Red-backed_Hawk_%28Buteo_polyosoma%29_1.jpg/1200px-Red-backed_Hawk_%28Buteo_polyosoma%29_1.jpg" alt="Aguilucho">
+            <p><strong>Garza blanca:</strong> Están en orillas de ríos capturando peces y otros animales pequeños, objetivo para el cual los valles de piura se prestan excelentemente. Es solitaria pero en épocas de reproducción puede estar en grandes grupos.</p>
+            <img src="https://static.nationalgeographic.es/files/styles/image_3200/public/2238.600x450.jpg?w=1900&h=1425" alt="Garza blanca">  
+            <p><strong>Algarrobo:</strong> Vive en climas desérticos o bosques tropicales. Se usa bastante por su esencia de algarrobo para construcción, fogatas y fines tradicionales. Es uno de los árboles más representativos de Piura.</p>
+            <img src="https://portal.andina.pe/EDPfotografia3/Thumbnail/2018/02/15/000482294W.jpg" alt="Algarrobo"> 
+            <p><strong>Suche:</strong> Habita en zonas altas, y se usa principalmente para decorar zonas públicas, y puede crecer hasta los 4 metros.</p>
+            <img src="https://http2.mlstatic.com/D_NQ_NP_715015-MPE48890711498_012022-O.webp" alt="Suche">  
+        </section>
+
+        <section id="Relacion-hombre-medio">
+            <h2>Relación del hombre y su medio geográfico</h2>
+            <p>Los piuranos aprovechan bien los recursos naturales que poseen, ejemplo es su fruta y agricultura. El plátano sirve para comerciar y preparar chifles. Los limones también, siendo muy útiles para la gastronomía local y nacional. Las playas y costas piuranas sirven para potenciar la pesca de la región, siendo que esta región produce mucho de la pesca peruana, además de dar mucho turismo.</p>
+        </section>
+
+        <section id="Uso-recursos">
+            <h2>Uso de los recursos naturales por parte del gobierno regional</h2>
+            <p>El gobierno Piurano tiene un departamento para administrar los recursos naturales, ayudando a cada provincia a gestionar sus recursos de buena manera en coordinación con el gobierno, basándose en ayudar a los ciudadanos.</p>
+        </section>
+
+        <section id="Zonas-Protegidas">
+            <h2>Zonas Protegidas</h2>
+            <p><strong>Manglares de San Pedro:</strong> Es un ecosistema de manglares de gran importancia y biodiversidad. Es importante en la protección de las costas, actuando como barrera natural contra la erosión y los eventos climáticos extremos, además de brindar hogar a varias especies de animales y otros organismos.</p>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqHuqvy-pD2bBrIBAZ6tVM4stgZUNqMe8evg&s" alt="Manglares de San Pedro"> 
+            <p><strong>Reserva nacional sistema de islas, islotes y puntas guaneras:</strong> Tiene una extensión de más o menos 140 000 hectáreas y va de Piura a Tacna. Esta reserva tiene como objetivo preservar varias especies guaneras de aves y animales marinos.</p>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPRn2H22GwWMAvNOtm8NRSs435Psmm2_Pn9g&s" alt="Reserva nacional sistema de islas, islotes y puntas guaneras"> 
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 PiuraEssence.com - Todos los derechos reservados</p>
+    </footer>
+	<aside>
+		<h1>Conoce los departamentos de Piura<h1>
+        <iframe title="Guía de Piura" width="20%" height="100%" src="https://www.youtube.com/embed/LeAbXynk1qw?si=s9xCEjKvCXxaY5Vn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+	</aside>
+</body>
+</html>
